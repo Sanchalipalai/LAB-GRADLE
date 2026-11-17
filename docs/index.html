@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Event Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Event Management System</h1>
+
+<div class="container">
+    <h2>Add New Event</h2>
+
+    <input type="text" id="eventName" placeholder="Event Name">
+    <input type="date" id="eventDate">
+    <input type="text" id="eventVenue" placeholder="Event Venue">
+
+    <button onclick="addEvent()">Add Event</button>
+</div>
+
+<div class="container">
+    <h2>Upcoming Events</h2>
+    <div id="eventList">
+        <p>No events added yet.</p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
